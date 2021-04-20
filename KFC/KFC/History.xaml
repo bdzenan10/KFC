@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KFC.History">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="historija" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,100,0,0"></Label>
+
+            <Label x:Name="Bonusi" HorizontalOptions="Center"></Label>
+            <Label x:Name="pravo" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            <Button Text="Quick reorder" Clicked="payment" Margin="0,200,0,0" TextColor="White" FontSize="20" BackgroundColor="#Bf0205"></Button>
+
+            
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

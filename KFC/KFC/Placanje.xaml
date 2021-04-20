@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KFC.Placanje">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+         
+
+            <Label Text="Način placanja:" Margin="0,0,0,10"></Label>
+            <StackLayout Orientation="Horizontal" Margin="0,0,0,10">
+                <CheckBox x:Name="gotovina"></CheckBox>
+                <Label Text="Gotovina" Margin="0,10,0,10"></Label>
+                <CheckBox x:Name="Kartica"></CheckBox>
+                <Label Text="Kartica"  Margin="0,10,0,10"></Label>
+            </StackLayout>
+            
+            <Label Text="Vrijeme preuzimanja:"></Label>
+            <TimePicker x:Name="Vrijeme"></TimePicker>
+
+            <Entry x:Name="ime" Placeholder="Ime" Text=""></Entry>
+            <Entry Placeholder="Prezime" x:Name="prezime" Text=""></Entry>
+            <Entry Placeholder="Telefon" x:Name="broj" Text=""></Entry>
+
+            <Picker Title="Odaberite lokaciju" ItemsSource="{Binding ListaGradova}" ItemDisplayBinding="{Binding Naziv}" SelectedItem="{Binding Gradovi}" x:Name="picker"></Picker>
+            <Button Text="Potvrdi" Margin="0,50,0,0" Clicked="Card" TextColor="White" FontSize="20" BackgroundColor="#Bf0205"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

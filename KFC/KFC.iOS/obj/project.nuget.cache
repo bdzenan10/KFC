@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "h/UP00aRO3MBWcP5vr3mR3tVbug2qpAv8TeDse0EzgMYdMcIMMCbr5kHs2/U+6rw4+V6FsuHla2RvQdNwckVLQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Focus-06\\Desktop\\Kfc3\\final\\kfc2\\KFC\\KFC\\KFC.iOS\\KFC.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Focus-06\\.nuget\\packages\\elasticsearch.net\\7.10.1\\elasticsearch.net.7.10.1.nupkg.sha512",
+    "C:\\Users\\Focus-06\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\Focus-06\\.nuget\\packages\\nest\\7.10.1\\nest.7.10.1.nupkg.sha512",
+    "C:\\Users\\Focus-06\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\Focus-06\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\Focus-06\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\Focus-06\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\Focus-06\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Focus-06\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "C:\\Users\\Focus-06\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Focus-06\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Focus-06\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\Focus-06\\.nuget\\packages\\xamarin.essentials\\1.2.0\\xamarin.essentials.1.2.0.nupkg.sha512",
+    "C:\\Users\\Focus-06\\.nuget\\packages\\xamarin.forms\\4.2.0.709249\\xamarin.forms.4.2.0.709249.nupkg.sha512"
+  ],
+  "logs": []
+}

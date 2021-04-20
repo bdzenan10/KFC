@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KFC.Korpa">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image  Source="/logo.jpg" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Grid  ColumnSpacing="10" RowSpacing="5" Margin="0" Padding="0">
+
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+            </Grid>
+            <Label Text="Vaša korpa!" FontSize="30" HorizontalOptions="Center"></Label>
+
+        <Label x:Name="lblNaziv" Text="" FontSize="Small" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,50,0,0"></Label>
+
+            <Label x:Name="lblHead" Text="" Grid.Row="2" Grid.Column="1"  Margin="0,0,0,0" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+            <Label x:Name="lblOrd" Text="" Grid.Row="2" Grid.Column="1"  Margin="0,0,0,0" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+            <Label x:Name="lblCijena" Text="" Grid.Row="4" Grid.Column="1"  Margin="0,0,0,0" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+
+
+            <Button Text="Nastavi"  Clicked="Button_Clicked" VerticalOptions="End" TextColor="White" FontSize="20" BackgroundColor="#Bf0205"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
